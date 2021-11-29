@@ -84,7 +84,7 @@
 }
 
  .u-section-1-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/NatureWriterReleasesBookonSeaOtters_IthacaCollege.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/37532m.png");
   background-position: 50% 50%;
 }
 
@@ -96,13 +96,13 @@
   font-size: 6rem;
   font-weight: 600;
   font-family: "Playfair Display", serif;
-  margin: 60px auto 0;
+  margin: 434px auto 0;
 }
 
 .u-section-1-2 .u-text-2 {
   width: 696px;
   font-size: 1rem;
-  margin: 30px auto 60px;
+  margin: 32px auto 0;
 }
 
 @media (max-width: 991px) {
@@ -140,6 +140,68 @@
   }
 
   .u-section-1-2 .u-text-2 {
+    margin-left: 23px;
+    margin-right: 23px;
+  }
+}
+
+ .u-section-1-3 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/NatureWriterReleasesBookonSeaOtters_IthacaCollege.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1-3 .u-sheet-1 {
+  min-height: 100vh;
+}
+
+.u-section-1-3 .u-text-1 {
+  font-size: 6rem;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  margin: 435px auto 0;
+}
+
+.u-section-1-3 .u-text-2 {
+  width: 696px;
+  font-size: 1rem;
+  margin: 31px auto 60px;
+}
+
+@media (max-width: 991px) {
+  .u-section-1-3 .u-text-1 {
+    margin-left: 29px;
+  }
+
+  .u-section-1-3 .u-text-2 {
+    width: auto;
+    margin-left: 29px;
+    margin-right: 29px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1-3 .u-text-1 {
+    font-size: 3rem;
+    margin-left: 18px;
+  }
+
+  .u-section-1-3 .u-text-2 {
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1-3 .u-sheet-1 {
+    min-height: 350px;
+  }
+
+  .u-section-1-3 .u-text-1 {
+    font-size: 2.75rem;
+    margin-left: 23px;
+  }
+
+  .u-section-1-3 .u-text-2 {
     margin-left: 23px;
     margin-right: 23px;
   }
